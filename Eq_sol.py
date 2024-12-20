@@ -37,7 +37,7 @@ class eq_solution:
 
     def check_stability(self):
         # Вычисление коэффициента CFL
-        if (self.tau < self.h**2 / 2 * self.gamma**2):
+        if (self.tau < self.h**2 / (2 * self.gamma**2)):
             return True
         return False
 

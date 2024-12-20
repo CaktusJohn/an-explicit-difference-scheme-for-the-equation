@@ -9,8 +9,3 @@ if __name__ == "__main__":
     app = App(root)
     root.mainloop()
 
-'''
-solution = eq_solution(10,100) #n m
-solution.solve()
-solution.show_tab()
-'''
